@@ -24,7 +24,7 @@ class ZYCGDetailSpider(scrapy.Spider):
     def start_requests(self):
         self.f = open("zycg.csv", "r")
         self.f_detail = open("zycg_detail.csv","a")
-        for cnt in range(0): # add 180 per day
+        for cnt in range(360): # from 0 start. add 180 per day
             line = self.f.readline()
         for cnt in range(180):
             line = self.f.readline()

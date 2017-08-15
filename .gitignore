@@ -1,2 +1,5 @@
 /env
 /ftspiders/ftspiders/secrets.py
+/ftspiders/*.csv
+/.idea
+*.pyc
